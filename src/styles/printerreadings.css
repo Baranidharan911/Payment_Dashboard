@@ -1,0 +1,188 @@
+.printer-readings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.printer-readings-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.printer-readings-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.printer-readings-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.printer-readings-container input, .printer-readings-container select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.printer-readings-container input:focus, .printer-readings-container select:focus {
+  border-color: #007bff;
+}
+
+.printer-section {
+  margin-bottom: 2rem;
+}
+
+.printer-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.printer-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.printer-section th, .printer-section td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.printer-section th {
+  background-color: #f8f9fa;
+}
+
+.printer-readings-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.printer-readings-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.printer-readings-container button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+.printer-readings-container table th {
+  background-color: #f8f9fa;
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.printer-readings-container table th[colSpan] {
+  text-align: center;
+}
+
+.printer-readings-container table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.printer-section button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.printer-section button:hover {
+  background-color: #0056b3;
+}
+
+.printer-section button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.printer-readings-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.printer-readings-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.printer-readings-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.printer-readings-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.printer-readings-container select,
+.printer-readings-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.printer-readings-container select:focus,
+.printer-readings-container input:focus {
+  border-color: #007bff;
+}
+
+.printer-readings-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.printer-readings-container th,
+.printer-readings-container td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.printer-readings-container th {
+  background-color: #f8f9fa;
+}
+
+.printer-readings-container button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 1rem;
+}
+
+.printer-readings-container button:disabled {
+  background-color: #ccc;
+}
+
+.printer-readings-container button:hover:enabled {
+  background-color: #0056b3;
+}

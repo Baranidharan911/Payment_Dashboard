@@ -1,0 +1,68 @@
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.profile-container form {
+  width: 100%;
+}
+
+.profile-container form div {
+  margin-bottom: 1rem;
+}
+
+.profile-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.profile-container input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.profile-container input:focus {
+  border-color: #007bff;
+}
+
+.profile-container button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-container button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.profile-container button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.profile-container .error {
+  color: #dc3545;
+  margin-bottom: 1rem;
+}

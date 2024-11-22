@@ -1,0 +1,77 @@
+.total-amount-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.total-amount-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.total-amount-container .form-group {
+  margin-bottom: 20px;
+}
+
+.total-amount-container .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.total-amount-container .form-group input,
+.total-amount-container .form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.total-amount-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.total-amount-container table th,
+.total-amount-container table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.total-amount-container table th {
+  background-color: #f1f1f1;
+}
+
+.total-amount-container table td input {
+  width: 90%;
+  padding: 5px;
+  text-align: center;
+}
+
+.total-amount-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.total-amount-container button:hover {
+  background-color: #0056b3;
+}
+.total-amount {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+

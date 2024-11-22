@@ -1,0 +1,91 @@
+.printer-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.printer-list-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.printer-list-container .form-group {
+  margin-bottom: 1rem;
+}
+
+.printer-list-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.printer-list-container select {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.printer-list-container select:focus {
+  border-color: #007bff;
+}
+
+.printer-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.printer-list-container th,
+.printer-list-container td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.printer-list-container th {
+  background-color: #f8f9fa;
+}
+
+.printer-list-container .pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.printer-list-container .pagination .disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.printer-list-container .pagination svg {
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+.printer-list-container button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0.5rem 0;
+}
+
+.printer-list-container button:hover {
+  background-color: #0056b3;
+}
+
+.printer-list-container button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,132 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background-color: #f8f9fa; /* Adjust based on your header style */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px; /* Adjust this margin based on your header height */
+}
+
+.sidebar {
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 1rem 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.sidebar .dropdown-container {
+  position: relative;
+}
+
+.sidebar .dropdown-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.sidebar .dropdown-btn:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.sidebar .dropdown {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+  display: block;
+  width: 100%;
+}
+
+.sidebar .dropdown li {
+  margin: 0.5rem 0;
+}
+
+.sidebar .dropdown li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s;
+}
+
+.sidebar .dropdown li a:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+  margin-left: 250px; /* Matches the sidebar width for layout alignment */
+}
+
+@media (min-width: 768px) {
+  .layout {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    width: 250px;
+    height: calc(100vh - 80px); /* Adjust height based on header height */
+    position: fixed;
+    top: 80px; /* Matches header height */
+    left: 0;
+    padding-top: 2rem;
+  }
+
+  .content {
+    margin-left: 250px;
+    padding: 2rem;
+  }
+}
